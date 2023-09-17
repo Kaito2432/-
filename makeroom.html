@@ -1,0 +1,121 @@
+<body>
+
+
+<div class="container">
+<div class="title big">
+<a href="/" class="btn">
+<i class="icon-home"></i>
+</a>
+<a class="btn" onclick="history.back()">
+<i class="icon-arrow-left"></i>
+</a>
+村を作る
+</div>
+
+            <br>
+            
+            <form action="#" method="post">
+            <input type="hidden" name="mode" value="submit" />
+            <input type="hidden" name="token" value="e14601d67be8f7748771b6bae1673f9e0a706a13b5f5ebdaff601cf58e38a389" />
+            <div class="control-group">
+                    <label class="control-label">
+                        プレイヤー名
+                    </label>
+                    <div class="controls">
+                        <input type="text" name="player_name" value="ああああ" placeholder="プレイヤー名を入力してください">
+                    </div>
+                    <label class="control-label">
+                        村名
+                    </label>
+                    <div class="controls">
+                        <input type="text" name="room_name" value="ああああ" placeholder="村名を入力してください">
+                    </div>
+                    <label class="control-label">コメント</label>
+                    <div class="controls">
+                    <input type="text" name="comment" value="" placeholder="紹介コメント">
+                    </div>
+
+                    <label class="control-label">村の掟</label>
+                    <div class="controls">
+                    <textarea name="rule" rows="8" placeholder="参加者への村の掟がある場合は入力してください" style="width:90%"></textarea>
+                    </div>
+
+                    
+                    <input type="hidden" name="no_gm" value="1" />
+                    
+                    
+                    <input type="hidden" name="private" value="0" />
+
+                    <label>定員(初日犠牲者含む)
+                    <select name="teiin">
+                    <option value="4">4</option>
+<option value="5">5</option>
+<option value="6">6</option>
+<option value="7">7</option>
+<option value="8">8</option>
+<option value="9">9</option>
+<option value="10">10</option>
+<option value="11">11</option>
+<option value="12">12</option>
+<option value="13">13</option>
+<option value="14">14</option>
+<option value="15">15</option>
+<option value="16">16</option>
+<option value="17">17</option>
+<option value="18">18</option>
+<option value="19">19</option>
+<option value="20" selected="selected">20</option>
+<option value="21">21</option>
+<option value="22">22</option>
+<option value="23">23</option>
+<option value="24">24</option>
+<option value="25">25</option>
+<option value="26">26</option>
+<option value="27">27</option>
+<option value="28">28</option>
+<option value="29">29</option>
+<option value="30">30</option>
+<option value="31">31</option>
+<option value="32">32</option>
+<option value="33">33</option>
+<option value="34">34</option>
+<option value="35">35</option>
+<option value="36">36</option>
+<option value="37">37</option>
+<option value="38">38</option>
+<option value="39">39</option>
+<option value="40">40</option>
+<option value="41">41</option>
+<option value="42">42</option>
+<option value="43">43</option>
+<option value="44">44</option>
+<option value="45">45</option>
+<option value="46">46</option>
+<option value="47">47</option>
+<option value="48">48</option>
+<option value="49">49</option>
+<option value="50">50</option>
+
+                    </select>
+                    </label>
+                    <input type="hidden" name="trip_open" value="1">      
+                    
+ 
+                    
+                    <label class="checkbox">
+                        <input type="checkbox" name="speed" value="1"> 軽量版
+                    </label>
+                    <label class="checkbox">
+                        <input type="checkbox" name="rom" value="1"> 観戦者として入る
+                    </label>
+
+                    <div class="g-recaptcha" data-sitekey="6Lf2bocaAAAAAAbH1nEMNpQlFj-3jccqomspwNBv"></div>
+
+                    <br />
+                    <input class="btn btn-primary" type="submit" value="村を作る" /><br />
+                                            <br /><br /><a class="btn" href="/m/room_create.php?pass_mode=1">合言葉をつける</a><br />
+                                    </div>
+            </form>
+<div class="footer" style="text-align:center;margin-top:30px;">
+</div>
+</body>
