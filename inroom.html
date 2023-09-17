@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="ja">
+  
+<head>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+  <title>人狼Online</title>
+<body>
+
+
+<div class="container">
+<div class="title big">
+<a href="/" class="btn">
+<i class="icon-home"></i>
+</a>
+<a class="btn" onclick="history.back()">
+<i class="icon-arrow-left"></i>
+</a>
+村に入る
+</div>
+	<br>
+       <form method="post" action="/m/room_in.php">
+          <input type="hidden" name="token" value="09e88e7c4e05c0b5bf11b9b72a86334f77ad20f66ffd4b490f0e2d13c86c36b5" />
+          <input type="hidden" name="mode" value="submit" />
+          <div class="control-group">
+              <label class="control-label">
+                   プレイヤー名
+              </label>
+                <div class="controls">
+                    <input type="text" name="player_name" value="aaaaaa" placeholder="プレイヤー名を入力してください">
+                </div>
+                	<label class="control-label">
+                    		村名
+                	</label>
+                		<div class="controls">
+                    			<input type="text" name="room_name" value="" placeholder="村名を入力してください">
+                		</div>
+            
+                 
+                <label class="checkbox">
+                    <input type="checkbox" name="rom" value="1"> 観戦者として入る
+                </label>
+                <label class="checkbox">
+                    <input type="checkbox" name="speed" value="1" checked> 軽量版
+                </label>
+                <input type="hidden" name="trip_open" value="1">
+                <div class="g-recaptcha" data-sitekey="6Lf2bocaAAAAAAbH1nEMNpQlFj-3jccqomspwNBv"></div>
+                
+                <br />
+
+                	<input class="btn btn-primary" type="submit" value="村に入る" />
+            	</div>
+        </form>
+<div class="footer" style="text-align:center;margin-top:30px;">
+</div>
+</body>
+</html>
+
