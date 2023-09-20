@@ -1,10 +1,14 @@
 /* ページ全体のフォントと背景設定 */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
+    background-image: url('raiden.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     margin: 0;
     padding: 0;
 }
+
 
 /* コンテナのスタイル */
 .tab-pane {
