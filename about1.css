@@ -1,1 +1,68 @@
+/* 全体のフォントと背景設定 */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* タイトルのスタイル */
+.title {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+}
+
+/* ボタンのスタイル */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+/* リストのスタイル */
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* ページ全体の幅と中央寄せ */
+.tab-pane {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+/* ページ内のパディング調整 */
+.tab-pane > div {
+    padding: 10px;
+}
+
+/* 推奨環境リストのスタイル */
+.tab-pane p {
+    line-height: 1.5;
+}
+
+/* リンクのスタイル */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
 
