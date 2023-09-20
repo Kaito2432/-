@@ -1,9 +1,18 @@
-/* 全体のフォントと背景設定 */
+/* ページ全体のフォントと背景設定 */
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
     margin: 0;
     padding: 0;
+}
+
+/* コンテナのスタイル */
+.tab-pane {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
 }
 
 /* タイトルのスタイル */
@@ -37,25 +46,6 @@ ul {
     margin-left: 20px;
 }
 
-/* ページ全体の幅と中央寄せ */
-.tab-pane {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 20px;
-    background-color: #fff;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-}
-
-/* ページ内のパディング調整 */
-.tab-pane > div {
-    padding: 10px;
-}
-
-/* 推奨環境リストのスタイル */
-.tab-pane p {
-    line-height: 1.5;
-}
-
 /* リンクのスタイル */
 a {
     color: #007bff;
@@ -66,3 +56,7 @@ a:hover {
     text-decoration: underline;
 }
 
+/* 役職リストのスタイル */
+.title[style*="line-height:150%"] + p {
+    line-height: 1.5;
+}
