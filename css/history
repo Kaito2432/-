@@ -1,0 +1,22 @@
+/* タブパネルのスタイル */
+.tab-pane {
+    padding: 5px;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    width: 60%;
+    margin: 0 auto;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+/* タイトルのスタイル */
+.title {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+/* リストアイテムのスタイル */
+.tab-pane li {
+    list-style-type: square;
+    margin-left: 20px;
+}
