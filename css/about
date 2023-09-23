@@ -1,10 +1,10 @@
 /* ページ全体のフォントと背景設定 */
 body {
     font-family: Arial, sans-serif;
-    background-image: url('raiden.jpg');
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+    background-image: url("https://illust-ryokka.jp/wp-content/uploads/2022/05/Stripe-pattern-45.png");
+    background-size: cover; /* 画像をウィンドウ全体に合わせる /
+    background-repeat: no-repeat; / 画像の繰り返しを無効にする /
+    background-attachment: fixed; / スクロールしても背景が固定される */
     margin: 0;
     padding: 0;
 }
